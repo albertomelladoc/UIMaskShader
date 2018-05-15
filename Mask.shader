@@ -42,7 +42,9 @@ Shader "Custom/UI/Mask"
             ReadMask[_StencilReadMask]
             WriteMask[_StencilWriteMask]
         }
-
+        
+        ZTest[unity_GUIZTestMode]
+        
         ColorMask[_ColorMask] //15 -> Color -- 0 -> Mask(Alpha)
 
         Blend SrcAlpha OneMinusSrcAlpha //Transparency
