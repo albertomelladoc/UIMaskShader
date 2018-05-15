@@ -6,3 +6,5 @@ Date: 15/05/2018
 
 Mask Shader for UI that allows transparency. 
 You need to place one Image with the colormask at 15 and the other at 0
+
+![Alt Text](https://github.com/albertomelladoc/UIMaskShader/blob/master/Mask.gif)
